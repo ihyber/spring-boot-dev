@@ -33,7 +33,7 @@
 		<fastjson.version>1.2.41</fastjson.version>
 		<jackson.version>2.9.3</jackson.version>
 		<druid.version>1.0.2</druid.version>
-		<guava.version>17.0</guava.version>
+		<guava.version>25.1-jre</guava.version>
 		<quartz.version>2.3.0</quartz.version>
 	</properties>
 
@@ -171,14 +171,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<!-- Google jar -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>${guava.version}</version>
 		</dependency>
-
 		<!--shiro begin -->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
