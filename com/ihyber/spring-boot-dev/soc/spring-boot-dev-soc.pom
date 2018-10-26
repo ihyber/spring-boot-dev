@@ -320,6 +320,7 @@
 				<dependency> <groupId>org.springframework</groupId> <artifactId>springloaded</artifactId> 
 				<version>1.2.8.RELEASE</version> </dependency> </dependencies> </plugin> -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.7.0</version>
 				<configuration>
@@ -330,7 +331,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
+				<version>3.0.2</version>
 				<configuration>
 					<excludes>
 						<exclude>**/com/dev/admin/config/**</exclude>
